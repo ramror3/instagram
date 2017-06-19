@@ -1,26 +1,121 @@
-   .navbar-inverse .navbar-nav > li > a {
-            color: white !important;
-        }
+.navbar-header {
+    margin-bottom: 0.5%;
+    padding-top: 5px;
+    background-color: white;
+}
 
-            .navbar-inverse .navbar-nav > li > a:hover {
-                text-decoration: underline;
-            }
+#win {
+    margin-top: -5%;
+    margin-left: 83%;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
 
-        .navbar-collapse ul li {
-            padding-top: 0px;
-            padding-bottom: 0px;
-        }
+/*.stylish-input-group .input-group-addon .glyphicon-search{
+   left: 11px;
+    /*position: absolute*/;
+    
+     
+/*}*/
 
-            .navbar-collapse ul li a {
-                padding-top: 0px;
-                padding-bottom: 0px;
-            }
+.stylish-input-group .form-control{
+    border-right:3; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
 
-        .navbar-brand img {
-            width: 200px;
-            height: 40px;
-        }
+.stylish-input-group {
+    padding-left: 300px;
+}
 
-        .navbar-inverse {
-            background-color: #3A1B37;
-        }
+.navbar-btn {
+    margin-left: 80px;
+    width: 110px;
+}
+
+.navbar-right {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-right em {
+     color: #c7c7c7;
+}
+
+.pull-left {
+    padding-left: 180px;
+    margin-top: 35px;
+}
+
+#sss {
+   margin-left: -60%;
+}
+
+#s1 {
+   margin-left: -70%;
+   margin-bottom: -50px;
+}
+
+.col-sm-4 {
+   text-decoration: none;
+}
+
+.main-nav{
+    float: left;
+    margin-top: -30px;
+    margin-left: 20px;   
+}
+
+.main-nav li{
+    display: inline-block;
+    margin: 40px;
+ 
+}
+
+.main-nav li a {
+     text-decoration: none;
+     color: black;
+
+ }
+
+.para {
+    padding-left: 40px;
+    margin-top: -5%;
+    font-size: 15px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+
+.first {
+   width: 75%;
+   height: 75%;
+}
+
+
+
+@media (max-width: 767px) { 
+
+.first {
+   width: 100%;
+   height: 100%;
+
+}
+
+
+ }
