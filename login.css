@@ -89,33 +89,81 @@
     margin-top: -5%;
     font-size: 15px;
 }
+.col-md-3{
+  color: block;
+  background-color: white;
+ height: 640px;
+ margin-bottom: 20px;
 
-.thumbnail {
-    position: relative;
-}
-
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
-}
-
-
-.first {
-   width: 75%;
-   height: 75%;
-}
-
-
-
-@media (max-width: 767px) { 
-
-.first {
-   width: 100%;
-   height: 100%;
+ right: 15%;
 
 }
 
+.gap-left img {
+width: 40px;
+margin-right: 130px;
+margin-top: 15px;
+margin-bottom: 20px;
+}
 
- }
+.col-md-3 .second {
+ text-decoration: none;
+ font-weight: bold;
+ color: #010408;
+ margin-left: -40%; 
+}
+
+.col-md-3 .btn-sm {
+  margin-left: 100px;   
+  width: 70px;
+ 
+}
+
+.gap-left {
+   border-bottom: 1px solid #efefef;
+    padding-bottom: 5px; 
+}
+
+.the {
+    margin-top: 80px;
+}
+
+.the a {
+    text-decoration: none;
+    color: #003569;
+}
+
+.that {
+    margin-top: 90%;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: -3px;
+   padding-top: 10px;
+}
+
+.login {
+
+    color: #999;
+}
+
+.login a {
+    text-decoration: none;
+    color: #003569;
+}
+
+.login i {
+    margin-left: 120px;
+    margin-top: 10px;
+    color: black;
+}
+
+#set {
+background-color: cyan;
+width: 293px;
+height: 293px;
+}
+
+.lib-panel {
+   padding-bottom: 20px;
+   padding-left: 105px;
+}
