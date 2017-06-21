@@ -157,13 +157,62 @@ margin-bottom: 20px;
     color: black;
 }
 
-#set {
-background-color: cyan;
-width: 293px;
-height: 293px;
-}
-
 .lib-panel {
    padding-bottom: 20px;
    padding-left: 105px;
+}
+
+.lib-panel #apple img{
+    margin-left: -43%;
+    
+}
+
+.lib-panel #boy img{
+    margin-left: -85%;
+    
+}
+
+.lib-panel #cartoon img{
+    margin-left: -43%;
+    
+}
+
+.lib-panel #doll img{
+    margin-left: -85%;
+    
+}
+
+.lib-panel #energy img{
+    margin-left: -43%;
+    
+}
+
+.lib-panel #find img{
+    margin-left: -85%;
+    
+}
+
+.learn.img-modal-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0;
+    font-size: 1.5em;
+    width: 45px;
+    color: #fff;
+    transition: opacity .2s ease-in;
+}
+
+.learn.img-modal-btn.right {
+    right: 0;
+}
+.learn.img-modal-btn i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -.75em;
 }
