@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CGMeetup @login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="comment.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+        <style type="text/css"></style>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+      </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                         <img id="win" alt="Brand" src="images/insl.png">
+                         </a>
+                         <form class="navbar-form navbar-left" role="search">
+
+                               <div class="input-group stylish-input-group">
+                                     <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                     </span>
+                                     <input type="text" class="form-control"  placeholder="Search" >
+                               </div>
+                               <div class="row pull-right">
+                                  <div class="col-md-4"><a href="https://www.instagram.com/explore/people/">
+                                  <img src="images/com.png"></a></div>
+                                  <div class="col-md-4" id="love"><a href=""><img src="images/love.png"></a></div>
+                                  <div class="col-md-4 dropdown" id="user"><a class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/user.png"><span class="sr-only">Toggle Dropdown</span>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="edit.html"><b>Edit Profile</b></a></li>
+                                          <li><a href="change.html">Change Password</a></li>
+                                          <li><a href="email.html">Notification</a></li>
+                                          <li><a href="#">Log Out</a></li>
+                                          <li><a href="#">Cancel</a></li>
+                                        </ul>
+                                    </a>
+                                    </div>
+                                </div>
+                               
+                        </form>
+                    </div>
+                 </div>
+            </nav>
+        </header>     
+        
+        
+<section>
+
+   <div class="col-md-2 sidebar">
+              <div class="row">
+                <div class="side-menu">
+                  <nav class="" role="navigation">
+                     <div class="side-menu-container  border-box">
+                       <ul class="nav navbar-nav">
+                          <li><a href="edit.html">Edit Profile</a></li>
+                          <li><a href="change.html">Change Password</a></li>
+                          <li><a href="auth.html">Authorized Applications</a></li>
+                          <li><a href="comment.html">Comments</a></li>
+                          <li><a href="email.html">Email and SMS</a></li>
+                        </ul>
+                      </div>
+                  </nav>
+                </div>
+              </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12 col-lg-7">
+          <div class="panel panel-default">
+            
+            <div class="panel-body">
+              <div class="form-group">              
+                        <label style="padding-left: 50px;">
+                          <input type="checkbox"> Hide Inappropriate Comments               
+                        </label>
+                           <p>Hide comments that contain words or phrases often reported as offensive.</p>  
+                    <div>
+                      <p id="apr"><b>Custom Keywords</b></p>
+                      <p>Comments that contain any of the words or phrases below will be hidden.</p>
+                      <textarea rows="7" cols="70" placeholder="Add Keywords,separated by commas"></textarea>
+                    </div>
+                     <div class="form-group">
+                      <label class="col-md-4 control-label" for="submit"></label>
+                      <div class="col-md-4">
+                        <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+</section>
+
+       <footer>
+           <section>
+               <div class="col-md-12 rams">
+                           <ul class="nav nav-pills pull-right">
+                            <li role="presentation" ><a href="#">ABOUT US</a></li>
+                            <li role="presentation"><a href="#">SUPPORT</a></li>
+                            <li role="presentation"><a href="#">BLOG</a></li>
+                            <li role="presentation" ><a href="#">PRESS</a></li>
+                            <li role="presentation"><a href="#">API</a></li>
+                            <li role="presentation"><a href="#">JOBS</a></li>
+                            <li role="presentation" ><a href="#">PRIVACY</a></li>
+                            <li role="presentation"><a href="#">TERMS</a></li>
+                            <li role="presentation"><a href="#">DIRECTORY</a></li>
+                            <li role="presentation"><a href="#">LANGUAGE</a></li>
+                            <p>&copy; 2017 INSTAGRAM </p>
+                          </ul>
+               </div>         
+           </section>
+       </footer>
+    </body>
+</html>

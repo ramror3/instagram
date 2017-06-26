@@ -1,6 +1,6 @@
 .navbar-header {
     margin-bottom: 0.5%;
-    padding-top: 5px;
+    padding-top: 8px;
     background-color: white;
 }
 
@@ -8,6 +8,11 @@
     margin-top: -5%;
     margin-left: 83%;
 }
+
+.stylish-input-group {
+    padding-top: 8px;
+}
+
 .stylish-input-group .input-group-addon{
     background: white !important; 
 }
@@ -33,43 +38,35 @@
     padding-left: 300px;
 }
 
-.navbar-btn {
-    margin-left: 80px;
-    width: 110px;
+
+.pull-right {
+    margin-left: 200px;
+    padding-top: 10px;
 }
 
-.navbar-right {
-    margin-left: 10px;
-    font-weight: 600;
-    font-size: 16px;
+.pull-right #love {
+    padding-top: 4px;
+    margin-right: -3px;
 }
 
-.navbar-right em {
-     color: #c7c7c7;
+.pull-right #user {
+    padding-top: 4px;
+    margin-right: -5px;
+
 }
 
-.pull-left {
-    padding-left: 180px;
-    margin-top: 35px;
+#sss{
+    margin-left: 230px;
+   margin-top: -155px;
 }
 
-#sss {
-   margin-left: -60%;
+#rrr {
+    margin-top: -165px;
 }
-
-#s1 {
-   margin-left: -70%;
-   margin-bottom: -50px;
-}
-
-.col-sm-4 {
-   text-decoration: none;
-}
-
 .main-nav{
-    float: left;
-    margin-top: -30px;
-    margin-left: 20px;   
+    float: right;
+    margin-top: -140px;
+    margin-right: 150px;   
 }
 
 .main-nav li{
@@ -118,9 +115,9 @@ margin-bottom: 20px;
 }
 
 .col-md-3 .btn-sm {
-  margin-left: 90px;   
-  width: 80px;
-  height: 40px;
+  margin-left: 100px;   
+  width: 70px;
+ 
 }
 
 .gap-left {
@@ -200,7 +197,7 @@ margin-bottom: 20px;
     margin-top: 5%;
     font-weight: bold;
     font-size: 11px;
-    margin-left: 8%; 
+    margin-left: -6%; 
     display: -webkit-flex; 
     word-spacing: -10%;
    margin-bottom: 5%;
@@ -221,3 +218,5 @@ margin-bottom: 20px;
       color: #999;
 
 }
+
+
